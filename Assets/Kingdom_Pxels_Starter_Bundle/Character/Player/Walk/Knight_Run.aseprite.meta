@@ -288,72 +288,64 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Knight_Run_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 15
       spriteId: f857b78e7b7216a4a84c56a1a8967d0e
-    - name: Frame_1
+    - name: Knight_Run_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 14
       spriteId: 06079770d52ba184eb155aa74b617496
-    - name: Frame_2
+    - name: Knight_Run_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 13
       spriteId: deaf1d9e292dc294a85abd795a4d8a14
-    - name: Frame_3
+    - name: Knight_Run_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 14
       spriteId: ef2eb318264c57f4c985a296356c88c8
-    - name: Frame_4
+    - name: Knight_Run_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 15
       spriteId: 83ed3994a8bcf9e44b856fc400afb815
-    - name: Frame_5
+    - name: Knight_Run_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 14
       spriteId: 655f05381668e9f4f90623cb1bf537d5
-    - name: Frame_6
+    - name: Knight_Run_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 11
         height: 13
       spriteId: 8b9164c8451e4a342aeeabfff5268bf2
-    - name: Frame_7
+    - name: Knight_Run_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

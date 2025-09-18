@@ -208,36 +208,32 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Dust_Jump_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 10
         height: 4
       spriteId: c20e79d7686180b40b1b4e831447cde4
-    - name: Frame_1
+    - name: Dust_Jump_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 1
         width: 18
         height: 3
       spriteId: cc832be64efa0f642ae660fcc5e6d633
-    - name: Frame_2
+    - name: Dust_Jump_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 20
         height: 5
       spriteId: 90cc6e0c779d9c740b6b8560d03fc3e5
-    - name: Frame_3
+    - name: Dust_Jump_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 5

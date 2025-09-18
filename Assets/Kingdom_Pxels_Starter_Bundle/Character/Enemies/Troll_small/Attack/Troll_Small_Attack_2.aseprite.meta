@@ -308,81 +308,72 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Troll_Small_Attack_2_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 13
         height: 13
       spriteId: 8cbda455111abd843b62c742fe6fcbb1
-    - name: Frame_1
+    - name: Troll_Small_Attack_2_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 13
         height: 12
       spriteId: 5ba2c57ee877d8545985df8ab1e07571
-    - name: Frame_2
+    - name: Troll_Small_Attack_2_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 13
       spriteId: 1874b09543966a745b84afdfa6cb2c76
-    - name: Frame_3
+    - name: Troll_Small_Attack_2_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 16
         height: 12
       spriteId: dedbdabe2fb042c47affd97b06af1a1b
-    - name: Frame_4
+    - name: Troll_Small_Attack_2_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 16
         height: 12
       spriteId: 6658315111ded9b4db15f4aa50e89781
-    - name: Frame_5
+    - name: Troll_Small_Attack_2_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 14
         height: 12
       spriteId: e853dd64a087c50469a1139d5f99a502
-    - name: Frame_6
+    - name: Troll_Small_Attack_2_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 15
         height: 13
       spriteId: f2ebec532fa72c745a14f3556fd90998
-    - name: Frame_7
+    - name: Troll_Small_Attack_2_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 13
         height: 13
       spriteId: 2d2d9268a5a1e16439ef74346bed8645
-    - name: Frame_8
+    - name: Troll_Small_Attack_2_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

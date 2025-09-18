@@ -168,18 +168,16 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Bow_Shooting_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 15
         height: 10
       spriteId: 6284ce4df9b2d584185d08dd7c4a3909
-    - name: Frame_1
+    - name: Bow_Shooting_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

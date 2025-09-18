@@ -328,90 +328,80 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Skeleton_Mother_Witch_Walk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 17
         height: 14
       spriteId: 4a776c8f456cb2e449ce1ddfa26c80a0
-    - name: Frame_1
+    - name: Skeleton_Mother_Witch_Walk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 17
         height: 13
       spriteId: 32d72111014bfec45b90711978ce09d7
-    - name: Frame_2
+    - name: Skeleton_Mother_Witch_Walk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 16
         height: 13
       spriteId: c61033e977d41724e94889e6aa726eda
-    - name: Frame_3
+    - name: Skeleton_Mother_Witch_Walk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 15
         height: 13
       spriteId: 27c7d7650aa65cf43957c5e2c0e28103
-    - name: Frame_4
+    - name: Skeleton_Mother_Witch_Walk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 14
         height: 13
       spriteId: c3eeae80a4f16be419dffd5d741220fc
-    - name: Frame_5
+    - name: Skeleton_Mother_Witch_Walk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 14
         height: 13
       spriteId: 73b7428514276304db50c4babc20eb83
-    - name: Frame_6
+    - name: Skeleton_Mother_Witch_Walk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 14
         height: 14
       spriteId: fd3b6108a18c55f408e333030cab4cd0
-    - name: Frame_7
+    - name: Skeleton_Mother_Witch_Walk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 15
         height: 14
       spriteId: f498d4ec278c00740b59cddab605cfb2
-    - name: Frame_8
+    - name: Skeleton_Mother_Witch_Walk_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 15
         height: 14
       spriteId: 2f73287f57681eb4ea37844dd850b42f
-    - name: Frame_9
+    - name: Skeleton_Mother_Witch_Walk_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0

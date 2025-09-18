@@ -308,81 +308,72 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Knight_Roll_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 12
         height: 15
       spriteId: 9ebab361d6573264bb128b12efa20132
-    - name: Frame_1
+    - name: Knight_Roll_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 12
         height: 14
       spriteId: 021bd3f7aafdc09448b4f0a3673c05a6
-    - name: Frame_2
+    - name: Knight_Roll_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 11
         height: 15
       spriteId: a27c66a1664b3bc43b42bcf06470b8c8
-    - name: Frame_3
+    - name: Knight_Roll_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 17
         height: 11
       spriteId: cfe4de2bffce68f4cb434f6bcfa7b429
-    - name: Frame_4
+    - name: Knight_Roll_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 14
         height: 10
       spriteId: bd434001c4159984d892182ef6727d3a
-    - name: Frame_5
+    - name: Knight_Roll_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 15
         height: 11
       spriteId: ce3a1146af0899a4bbd8e41a9364abd3
-    - name: Frame_6
+    - name: Knight_Roll_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 13
         height: 12
       spriteId: 10e9fa779c98e9d498f9834ea9992047
-    - name: Frame_7
+    - name: Knight_Roll_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 12
         height: 14
       spriteId: 909d7856213b09545bd80e4b563e38d0
-    - name: Frame_8
+    - name: Knight_Roll_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

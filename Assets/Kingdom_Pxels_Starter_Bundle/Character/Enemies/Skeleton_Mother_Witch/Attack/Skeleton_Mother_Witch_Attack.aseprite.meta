@@ -348,99 +348,88 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Skeleton_Mother_Witch_Attack_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 15
         height: 14
       spriteId: 5b1a949f139c99d49aa444410817a2d1
-    - name: Frame_1
+    - name: Skeleton_Mother_Witch_Attack_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 17
         height: 14
       spriteId: af1241d87fb67aa4093d0be66484b3f3
-    - name: Frame_2
+    - name: Skeleton_Mother_Witch_Attack_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 19
         height: 14
       spriteId: 5cd349d874f0a794eb5ba02d83ea102f
-    - name: Frame_3
+    - name: Skeleton_Mother_Witch_Attack_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 22
         height: 13
       spriteId: add66497199de914d989b4e08d7b3941
-    - name: Frame_4
+    - name: Skeleton_Mother_Witch_Attack_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 23
         height: 13
       spriteId: bac91ab134da4e94e8b5a55e859fd77e
-    - name: Frame_5
+    - name: Skeleton_Mother_Witch_Attack_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 26
         height: 13
       spriteId: 06f5c5ac588b8bc449498eb1ba1fed79
-    - name: Frame_6
+    - name: Skeleton_Mother_Witch_Attack_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 24
         height: 13
       spriteId: 46ca99f9c5716c84999f498b8b3ff935
-    - name: Frame_7
+    - name: Skeleton_Mother_Witch_Attack_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 23
         height: 13
       spriteId: 6bec758fc3ef20c4e951f073c588666a
-    - name: Frame_8
+    - name: Skeleton_Mother_Witch_Attack_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 17
         height: 13
       spriteId: 9d598fc7c2a7a444893f1d55c8fed1f4
-    - name: Frame_9
+    - name: Skeleton_Mother_Witch_Attack_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 16
         height: 14
       spriteId: 21441014700b69045a16bd842174ad95
-    - name: Frame_10
+    - name: Skeleton_Mother_Witch_Attack_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

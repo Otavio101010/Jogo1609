@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Skeleton_Mother_Witch_Hit_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 15
         height: 14
       spriteId: 27f5226f1ed43974db929689fd1cc8d9
-    - name: Frame_1
+    - name: Skeleton_Mother_Witch_Hit_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 13
         height: 14
       spriteId: c66999ec45f3b984887687ed0c2ca715
-    - name: Frame_2
+    - name: Skeleton_Mother_Witch_Hit_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

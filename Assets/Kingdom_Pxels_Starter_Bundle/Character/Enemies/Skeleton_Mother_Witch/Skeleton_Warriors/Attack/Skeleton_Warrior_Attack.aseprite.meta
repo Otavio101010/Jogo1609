@@ -288,72 +288,64 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Skeleton_Warrior_Attack_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 11
       spriteId: 6e8176d2309c9904a8e0571d061a0be4
-    - name: Frame_1
+    - name: Skeleton_Warrior_Attack_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 10
         height: 10
       spriteId: 83d1ce917ba100b41a2e038640f23247
-    - name: Frame_2
+    - name: Skeleton_Warrior_Attack_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 9
         height: 11
       spriteId: c07b9c6ba13523644b6543faf3e6f94d
-    - name: Frame_3
+    - name: Skeleton_Warrior_Attack_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 13
         height: 13
       spriteId: 1a819c73f3312a84e8c6453beb642a2c
-    - name: Frame_4
+    - name: Skeleton_Warrior_Attack_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 13
         height: 13
       spriteId: c765c5c523f587a4091cbce7d572e369
-    - name: Frame_5
+    - name: Skeleton_Warrior_Attack_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 10
         height: 10
       spriteId: ed1d87539e072b94f958d2c56fd72168
-    - name: Frame_6
+    - name: Skeleton_Warrior_Attack_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 10
         height: 10
       spriteId: d74f0a7c98e65da43802113319512621
-    - name: Frame_7
+    - name: Skeleton_Warrior_Attack_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

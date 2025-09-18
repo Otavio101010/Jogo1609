@@ -288,72 +288,64 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_1
+    - name: Gate_Close_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 12
         width: 9
         height: 4
       spriteId: 95dbf206254229a40a3ecaef754b6f4f
-    - name: Frame_2
+    - name: Gate_Close_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 8
         width: 9
         height: 8
       spriteId: 0c1f9fbc0dc1b864aae688e697c48964
-    - name: Frame_3
+    - name: Gate_Close_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 3
         width: 9
         height: 13
       spriteId: bdb3ae52b3a8e324cb7477ed9a7d20ab
-    - name: Frame_4
+    - name: Gate_Close_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 19
         height: 16
       spriteId: de72857ad7388584da34bc8473c35db8
-    - name: Frame_5
+    - name: Gate_Close_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 22
         height: 16
       spriteId: 8f5e44b40f4205844a30a78d12b8c26b
-    - name: Frame_6
+    - name: Gate_Close_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 27
         height: 16
       spriteId: 6e1ef747556584149b0643ffa26af6cf
-    - name: Frame_7
+    - name: Gate_Close_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 31
         height: 16
       spriteId: 8f8bf56f49738b3448e450a62109a470
-    - name: Frame_8
+    - name: Gate_Close_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 0

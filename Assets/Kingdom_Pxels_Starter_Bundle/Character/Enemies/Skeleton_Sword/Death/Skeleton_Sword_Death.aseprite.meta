@@ -328,90 +328,80 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Skeleton_Sword_Death_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 14
       spriteId: 4838b8b5a176681468ba0f3362e5e481
-    - name: Frame_1
+    - name: Skeleton_Sword_Death_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 14
       spriteId: e0550cfa40c0f3043b30c1a99e4de842
-    - name: Frame_2
+    - name: Skeleton_Sword_Death_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 15
         height: 15
       spriteId: 915c8daedbfd25349a503d2b6f290b7c
-    - name: Frame_3
+    - name: Skeleton_Sword_Death_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 18
         height: 15
       spriteId: 124d341d575f95642a468bf74ff102e0
-    - name: Frame_4
+    - name: Skeleton_Sword_Death_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 21
         height: 13
       spriteId: 27cb32f98d4d8f24ea2d811c727ef68b
-    - name: Frame_5
+    - name: Skeleton_Sword_Death_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 21
         height: 9
       spriteId: f5dfa18641eb7fa4789a43f24b717ec1
-    - name: Frame_6
+    - name: Skeleton_Sword_Death_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 21
         height: 7
       spriteId: 55c363aec91257e4bb70bc40efff2092
-    - name: Frame_8
+    - name: Skeleton_Sword_Death_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 21
         height: 7
       spriteId: 97d39ac4c68f1734e9f20db020513a60
-    - name: Frame_10
+    - name: Skeleton_Sword_Death_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 21
         height: 7
       spriteId: 4bd71f3bd2311da448cb992153055cb4
-    - name: Frame_12
+    - name: Skeleton_Sword_Death_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

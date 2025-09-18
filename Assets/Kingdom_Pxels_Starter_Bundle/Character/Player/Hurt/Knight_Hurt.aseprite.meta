@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Knight_Hurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 12
         height: 15
       spriteId: a105e763387103b42a93aece35559f2b
-    - name: Frame_1
+    - name: Knight_Hurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 15
       spriteId: 0f4ab3eb75f06aa459fe1e101b98680e
-    - name: Frame_2
+    - name: Knight_Hurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

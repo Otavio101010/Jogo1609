@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Chest_Close_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 10
       spriteId: 56df09b98600ca3448f3aa94addd02a7
-    - name: Frame_1
+    - name: Chest_Close_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 8
       spriteId: 894a7e77ddfc8074098dc63b2e55df33
-    - name: Frame_2
+    - name: Chest_Close_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

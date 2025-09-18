@@ -228,45 +228,40 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Skeleton_Warrior_Idle_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 11
       spriteId: d99ca42e1e7b4d748a3901e5d0457329
-    - name: Frame_1
+    - name: Skeleton_Warrior_Idle_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 10
       spriteId: 1b428acc6f9827f42af2f236ab0e5cbe
-    - name: Frame_2
+    - name: Skeleton_Warrior_Idle_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 9
       spriteId: b831a7457a95ab64eb4a3784a751b337
-    - name: Frame_3
+    - name: Skeleton_Warrior_Idle_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 10
       spriteId: 48d76c365c8fd5f41a6f6aeef3980283
-    - name: Frame_4
+    - name: Skeleton_Warrior_Idle_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

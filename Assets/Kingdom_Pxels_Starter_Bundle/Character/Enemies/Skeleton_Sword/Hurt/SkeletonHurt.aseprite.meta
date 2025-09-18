@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: SkeletonHurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 14
       spriteId: 5d40377b40a0f5546bf616abefb9c6da
-    - name: Frame_1
+    - name: SkeletonHurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 14
       spriteId: 215e9b686a8f36442b1e3ddc532670bc
-    - name: Frame_2
+    - name: SkeletonHurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

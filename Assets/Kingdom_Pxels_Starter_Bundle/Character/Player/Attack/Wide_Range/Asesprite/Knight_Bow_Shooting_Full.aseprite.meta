@@ -448,144 +448,128 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Knight_Bow_Shooting_Full_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 15
       spriteId: f937916d44a37224ba985edc9433406e
-    - name: Frame_1
+    - name: Knight_Bow_Shooting_Full_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 14
       spriteId: 2e99a7e4380169942a47fa339cc2afc0
-    - name: Frame_2
+    - name: Knight_Bow_Shooting_Full_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 14
       spriteId: e86de969e6d90244293df01906bc83e0
-    - name: Frame_3
+    - name: Knight_Bow_Shooting_Full_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 15
       spriteId: f568d714e72ad654fb8f131185dc53d2
-    - name: Frame_4
+    - name: Knight_Bow_Shooting_Full_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 15
         height: 15
       spriteId: bc5d0d46192baca4c8b411b213a286d5
-    - name: Frame_5
+    - name: Knight_Bow_Shooting_Full_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 15
         height: 15
       spriteId: a1645a5f34d7d4c40a77888155ee57c0
-    - name: Frame_6
+    - name: Knight_Bow_Shooting_Full_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 14
         height: 15
       spriteId: 31ee0bc6882ce574da57af69a3dc4298
-    - name: Frame_7
+    - name: Knight_Bow_Shooting_Full_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 15
         height: 15
       spriteId: 6827820b37cb33547907891c514a1809
-    - name: Frame_8
+    - name: Knight_Bow_Shooting_Full_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 20
         height: 15
       spriteId: 6dc2801f4d7644c48ad823c094d90187
-    - name: Frame_9
+    - name: Knight_Bow_Shooting_Full_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 18
         height: 15
       spriteId: fb620ce4f23df71478bb5e8cd8db04a9
-    - name: Frame_10
+    - name: Knight_Bow_Shooting_Full_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 16
         height: 15
       spriteId: 6e4c1c0b67340df41b6f8356a07c88c6
-    - name: Frame_11
+    - name: Knight_Bow_Shooting_Full_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 14
         height: 15
       spriteId: 6e8cdbd2ebc98a442ba1a0deae1cf4df
-    - name: Frame_12
+    - name: Knight_Bow_Shooting_Full_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 12
         height: 15
       spriteId: 40e3a0628e625e9408e66ce728c894eb
-    - name: Frame_13
+    - name: Knight_Bow_Shooting_Full_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 14
       spriteId: 7fd8f2c8fae8a1e47a2f11009735f876
-    - name: Frame_14
+    - name: Knight_Bow_Shooting_Full_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 14
       spriteId: 728c23cd014ab554aa381813e2c74d6d
-    - name: Frame_15
+    - name: Knight_Bow_Shooting_Full_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

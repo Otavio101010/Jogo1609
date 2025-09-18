@@ -448,144 +448,128 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Executioner_Attack_1_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 30
         height: 29
       spriteId: e3824c654dcc8ee4ba0902f79449626f
-    - name: Frame_1
+    - name: Executioner_Attack_1_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 24
         height: 26
       spriteId: 1881363740eaa8942bad5f60c6847e46
-    - name: Frame_2
+    - name: Executioner_Attack_1_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 22
         height: 28
       spriteId: fb2f41f793f6ca948a6d80e35d541b7e
-    - name: Frame_3
+    - name: Executioner_Attack_1_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: -1
         y: 0
         width: 25
         height: 29
       spriteId: d18d6c963fe28f242bcefddfe6f11dd7
-    - name: Frame_4
+    - name: Executioner_Attack_1_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 48
         height: 45
       spriteId: 1129013e5222728418eda8ca98cacb7c
-    - name: Frame_5
+    - name: Executioner_Attack_1_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 54
         height: 40
       spriteId: ba2a9a7c77abd6d45a6c7192a4c847ff
-    - name: Frame_6
+    - name: Executioner_Attack_1_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 51
         height: 35
       spriteId: e45db20c5f629a84ea5cd55d33f0fda2
-    - name: Frame_7
+    - name: Executioner_Attack_1_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 49
         height: 36
       spriteId: 1a8eb99a7d539854db53f0bb97442e5f
-    - name: Frame_8
+    - name: Executioner_Attack_1_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 49
         height: 26
       spriteId: 692a55f3393d1254d8f48b8d1482d657
-    - name: Frame_9
+    - name: Executioner_Attack_1_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 51
         height: 27
       spriteId: cad94798238db6d48baa5d79a2747b25
-    - name: Frame_10
+    - name: Executioner_Attack_1_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 52
         height: 40
       spriteId: 9d2b7a2f89becc7498ce74bd5ecd1cd2
-    - name: Frame_11
+    - name: Executioner_Attack_1_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 52
         height: 45
       spriteId: 39082020cf626a64e8985aba30ed7796
-    - name: Frame_12
+    - name: Executioner_Attack_1_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 55
         height: 40
       spriteId: 9c850698022fbac42987e0f0e746694e
-    - name: Frame_13
+    - name: Executioner_Attack_1_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 31
         height: 39
       spriteId: 536610f1ca03cdf4bb9445ae40f4d5cf
-    - name: Frame_14
+    - name: Executioner_Attack_1_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 38
       spriteId: 26d6937029ed21646b9630cc328f17f1
-    - name: Frame_15
+    - name: Executioner_Attack_1_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

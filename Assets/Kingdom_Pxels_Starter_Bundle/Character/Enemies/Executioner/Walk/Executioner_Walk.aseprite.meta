@@ -288,72 +288,64 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Executioner_Walk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 23
         height: 29
       spriteId: 93ef797ef60617840bf5c62c4f8ab83a
-    - name: Frame_1
+    - name: Executioner_Walk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 20
         height: 28
       spriteId: cd1b8ab2fca64c84f9506fe1b4b314b3
-    - name: Frame_2
+    - name: Executioner_Walk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 19
         height: 28
       spriteId: b1f4998c1a5fda2449e9126391250e61
-    - name: Frame_3
+    - name: Executioner_Walk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 19
         height: 28
       spriteId: f23915c65d7c25045b9762c394133a16
-    - name: Frame_4
+    - name: Executioner_Walk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 22
         height: 29
       spriteId: 500f5a1164112284fb63fbae0648a138
-    - name: Frame_5
+    - name: Executioner_Walk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 20
         height: 28
       spriteId: e912f2f0bfb39e14aa9081b84c9df068
-    - name: Frame_6
+    - name: Executioner_Walk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 19
         height: 28
       spriteId: 06841494b1216b145bd284143c1d9305
-    - name: Frame_7
+    - name: Executioner_Walk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0

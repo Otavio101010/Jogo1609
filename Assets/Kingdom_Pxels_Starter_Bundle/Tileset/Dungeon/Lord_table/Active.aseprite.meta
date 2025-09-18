@@ -228,45 +228,40 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Active_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 10
         height: 13
       spriteId: a424be88c92749942b7991e6f22f7dac
-    - name: Frame_1
+    - name: Active_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 10
         height: 14
       spriteId: f248752684928b947b6ffe18796f21da
-    - name: Frame_2
+    - name: Active_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 10
         height: 15
       spriteId: 1191c3f8fb548bd4cb2c5f343759e0ff
-    - name: Frame_3
+    - name: Active_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 10
         height: 15
       spriteId: 4afd48626f576fc4d9095a251b9aca8c
-    - name: Frame_4
+    - name: Active_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

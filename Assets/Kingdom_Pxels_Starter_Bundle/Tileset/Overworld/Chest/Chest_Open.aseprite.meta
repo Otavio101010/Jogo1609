@@ -268,63 +268,56 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Chest_Open_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 1
         width: 12
         height: 8
       spriteId: adbacd2dd1134ca4db431b11903b0c03
-    - name: Frame_1
+    - name: Chest_Open_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 1
         width: 14
         height: 7
       spriteId: e8f677badc926a04881908ec2e42a7f0
-    - name: Frame_2
+    - name: Chest_Open_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 1
         width: 12
         height: 8
       spriteId: 85ca2446ba85e214cb7a07c688ba20a6
-    - name: Frame_3
+    - name: Chest_Open_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 1
         width: 16
         height: 8
       spriteId: 7b5ad8025a3bc5b4692de6241941c7a9
-    - name: Frame_4
+    - name: Chest_Open_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
         width: 24
         height: 9
       spriteId: 560dd158fa8f0344bbf2da86daf5515e
-    - name: Frame_5
+    - name: Chest_Open_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
         width: 30
         height: 11
       spriteId: f32eb9653d160eb41ba6c985253cffcb
-    - name: Frame_6
+    - name: Chest_Open_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

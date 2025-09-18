@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Orc_Hurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 29
         height: 27
       spriteId: 6f9be49b44bf5ae44adc8b3785d13907
-    - name: Frame_1
+    - name: Orc_Hurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 28
         height: 27
       spriteId: 061c51b1aa241044f83b874ec96c2290
-    - name: Frame_2
+    - name: Orc_Hurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0

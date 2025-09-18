@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Troll_Small_Hurt_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 13
         height: 13
       spriteId: 8b13818058d77b04bafda9eb9f215cf9
-    - name: Frame_1
+    - name: Troll_Small_Hurt_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 13
       spriteId: 601c1d1f098139f42840fbccf655e1e0
-    - name: Frame_2
+    - name: Troll_Small_Hurt_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

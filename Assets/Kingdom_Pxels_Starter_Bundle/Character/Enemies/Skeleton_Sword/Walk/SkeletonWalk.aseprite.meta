@@ -288,72 +288,64 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: SkeletonWalk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 14
       spriteId: 05a56b383ea43614b81f6128f51fd742
-    - name: Frame_1
+    - name: SkeletonWalk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 13
       spriteId: ec437fe4094b1bb4bb35b32b56ee1a3f
-    - name: Frame_2
+    - name: SkeletonWalk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 12
       spriteId: 2c6abd1b7dd8c1b4db3696a200fe35cd
-    - name: Frame_3
+    - name: SkeletonWalk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 13
       spriteId: b257df6766e40044eb0e8418c006436e
-    - name: Frame_4
+    - name: SkeletonWalk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 14
       spriteId: b2acb2b510cf1b542bfc7a74cace4339
-    - name: Frame_5
+    - name: SkeletonWalk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 13
       spriteId: 491125ee9c535904585bee808b27aefa
-    - name: Frame_6
+    - name: SkeletonWalk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 13
         height: 12
       spriteId: 9bdac3733e92efa459d860fd3af87692
-    - name: Frame_7
+    - name: SkeletonWalk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

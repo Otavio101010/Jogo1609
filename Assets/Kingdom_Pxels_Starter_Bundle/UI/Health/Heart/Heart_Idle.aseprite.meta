@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Heart_Idle_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 7
         height: 6
       spriteId: 62c6ba8d8c91d4a48ae744f724af2131
-    - name: Frame_1
+    - name: Heart_Idle_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 7
         height: 5
       spriteId: f485817da9d2009478d9f55ffa86a8a7
-    - name: Frame_2
+    - name: Heart_Idle_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

@@ -208,36 +208,32 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Bow_Charging_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 2
         width: 15
         height: 15
       spriteId: 3f196ba2497272949bb620b893d09312
-    - name: Frame_1
+    - name: Bow_Charging_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 5
         width: 9
         height: 9
       spriteId: 94de1dae1ab5a5c4c8c6d86d90cffac4
-    - name: Frame_2
+    - name: Bow_Charging_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 8
         width: 3
         height: 3
       spriteId: 6dc87fae33ae579409b200c33e5a2a9f
-    - name: Frame_3
+    - name: Bow_Charging_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 8

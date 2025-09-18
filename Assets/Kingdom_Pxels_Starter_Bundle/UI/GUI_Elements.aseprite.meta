@@ -150,7 +150,6 @@ ScriptedImporter:
     cells:
     - name: GUI_Elements
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 14

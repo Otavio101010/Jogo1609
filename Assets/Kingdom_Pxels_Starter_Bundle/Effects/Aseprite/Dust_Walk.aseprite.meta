@@ -208,36 +208,32 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Dust_Walk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 4
         height: 4
       spriteId: d95fc2640c0b1754e8f5f6792258943d
-    - name: Frame_1
+    - name: Dust_Walk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 8
         height: 7
       spriteId: 5f64fc846742eb24891e50280cc879c4
-    - name: Frame_2
+    - name: Dust_Walk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 3
         width: 7
         height: 7
       spriteId: ac97f75547a0a9b4896ec9050eb382a7
-    - name: Frame_3
+    - name: Dust_Walk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 4

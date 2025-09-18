@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Knight_Jump_Up_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 15
       spriteId: d60ec90d5f5fa124b9f213e511833a04
-    - name: Frame_1
+    - name: Knight_Jump_Up_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
         width: 12
         height: 14
       spriteId: bc8e7593e9aa3a04583f2ea95d1976dc
-    - name: Frame_2
+    - name: Knight_Jump_Up_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1

@@ -288,72 +288,64 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Skeleton_Bow_Walk_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 13
       spriteId: ec4733118c5b5aa45b58ebc4b6f21ff3
-    - name: Frame_1
+    - name: Skeleton_Bow_Walk_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 12
       spriteId: 631dd01ad3631de47ab146e946f93627
-    - name: Frame_2
+    - name: Skeleton_Bow_Walk_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 11
       spriteId: 7091ffcadba6a9e488ffe37bc78dce59
-    - name: Frame_3
+    - name: Skeleton_Bow_Walk_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 12
       spriteId: 0ec1e55093409864591211cc6d4de755
-    - name: Frame_4
+    - name: Skeleton_Bow_Walk_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 13
       spriteId: ea3add08aef637042ad0e81c1af3a2f3
-    - name: Frame_5
+    - name: Skeleton_Bow_Walk_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 12
       spriteId: b02575e37c5fc5a48a1d276f196e9ff3
-    - name: Frame_6
+    - name: Skeleton_Bow_Walk_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 11
       spriteId: 33eaa106bcb21d54eb607dec057cfa55
-    - name: Frame_7
+    - name: Skeleton_Bow_Walk_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

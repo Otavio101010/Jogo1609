@@ -208,36 +208,32 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Waterfall_Animated_1_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 12
         height: 19
       spriteId: bce2cf82a54a842429e1b8bb6d390906
-    - name: Frame_1
+    - name: Waterfall_Animated_1_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 12
         height: 19
       spriteId: a43b694ce02aff84eadba3beef715024
-    - name: Frame_2
+    - name: Waterfall_Animated_1_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 12
         height: 19
       spriteId: eb399822b9270b5458cebace773ad60a
-    - name: Frame_3
+    - name: Waterfall_Animated_1_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0

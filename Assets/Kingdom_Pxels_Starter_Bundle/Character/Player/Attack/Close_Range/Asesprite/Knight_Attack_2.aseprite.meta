@@ -308,81 +308,72 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Knight_Attack_2_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 12
         height: 15
       spriteId: 7d9546f02b030ad4dbf496435d08c1e1
-    - name: Frame_1
+    - name: Knight_Attack_2_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 2
         width: 11
         height: 15
       spriteId: 27ed7c81e24fa7a4d989c55b69e5ef15
-    - name: Frame_2
+    - name: Knight_Attack_2_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
         width: 11
         height: 18
       spriteId: a180f2d080a1d9149b46b1e876d32c49
-    - name: Frame_3
+    - name: Knight_Attack_2_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 26
         height: 16
       spriteId: 25acb08668257304c92b1f76d9904899
-    - name: Frame_4
+    - name: Knight_Attack_2_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 2
         width: 19
         height: 14
       spriteId: 760c29d58a6d41c44ac121783faaea14
-    - name: Frame_5
+    - name: Knight_Attack_2_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 13
         height: 14
       spriteId: 82669b199eee3304bbe0c835b04e56e0
-    - name: Frame_6
+    - name: Knight_Attack_2_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
         width: 11
         height: 15
       spriteId: 87828e46c08f2294e968890a9c823999
-    - name: Frame_7
+    - name: Knight_Attack_2_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 2
         width: 11
         height: 15
       spriteId: 8d71aba06698bdf428a50a0e86810fc1
-    - name: Frame_8
+    - name: Knight_Attack_2_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2

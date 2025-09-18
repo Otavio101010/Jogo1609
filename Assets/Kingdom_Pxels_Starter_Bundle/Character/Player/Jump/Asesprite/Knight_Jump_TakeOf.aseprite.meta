@@ -188,27 +188,24 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Knight_Jump_TakeOf_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 15
       spriteId: a5ea2ef6d11926141832bc1771968cc2
-    - name: Frame_1
+    - name: Knight_Jump_TakeOf_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 12
         height: 14
       spriteId: 2ad98ab3a6d4cde4fb1bb2581efea5f3
-    - name: Frame_2
+    - name: Knight_Jump_TakeOf_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
