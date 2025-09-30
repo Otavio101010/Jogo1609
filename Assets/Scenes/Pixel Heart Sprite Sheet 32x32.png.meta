@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46ecb63b750c5de40a480aa53dad28da
+guid: 4f3abb4042755c04c9033c1cb7f28fbd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,9 +97,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 2
         width: 32
-        height: 32
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,8 +107,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a2aa26e97cf444d932d82a5925be9c
-      internalID: 1861739438
+      spriteID: 102511cecf1821642ab99bb596960186
+      internalID: 751129082
       vertices: []
       indices: 
       edges: []
@@ -118,9 +118,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
+        y: 2
         width: 32
-        height: 32
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ada0aa4e25176d940bda262762bfa3d5
-      internalID: 22163990
+      spriteID: 7404537dc41514f4cb7ba3589ea18753
+      internalID: 6252034
       vertices: []
       indices: 
       edges: []
@@ -139,9 +139,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 2
         width: 32
-        height: 32
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,8 +149,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 120940f9e9cfca741abf06b6526c6514
-      internalID: -1310135141
+      spriteID: 35df1fa357fc67244a98ce41fb0b6a13
+      internalID: 514562777
       vertices: []
       indices: 
       edges: []
@@ -166,9 +166,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pixel Heart Sprite Sheet 32x32_0: 1861739438
-      Pixel Heart Sprite Sheet 32x32_1: 22163990
-      Pixel Heart Sprite Sheet 32x32_2: -1310135141
+      Pixel Heart Sprite Sheet 32x32_0: 751129082
+      Pixel Heart Sprite Sheet 32x32_1: 6252034
+      Pixel Heart Sprite Sheet 32x32_2: 514562777
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
