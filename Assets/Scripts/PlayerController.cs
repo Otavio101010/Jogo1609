@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public float groundCheckX = 0.2f;
     public Transform groundCheckPoint;
     public LayerMask groundMask;
-
+/*
     [Space(5)]
     [Header("Dash Settings")]
     public float dashSpeed;
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public bool dashed;
     public bool canDash = true;
     public GameObject dashEffect;
-
+*/
     [Space(5)]
     [Header("Damage Effect")]
     public Color damageColor = Color.red; // Cor durante o dano
@@ -100,7 +100,7 @@ public class PlayerController : MonoBehaviour
         Move();
         Jump();
         Shoot();
-        StartDash();
+        //StartDash();
         PauseGame();
         VerificarUpgrades();
     }
@@ -187,7 +187,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void StartDash()
+    /*void StartDash()
     {
         if (Input.GetButtonDown("Dash") && canDash && !dashed)
         {
@@ -199,9 +199,9 @@ public class PlayerController : MonoBehaviour
         {
             dashed = false;
         }
-    }
+    }*/
 
-    IEnumerator Dash()
+    /*IEnumerator Dash()
     {
         canDash = false;
         pState.dashing = true;
@@ -254,7 +254,7 @@ public class PlayerController : MonoBehaviour
         //Adiciona a nova posição e faz o objeto ser filho do transform do jogador
         instantiatedDashEffect.transform.position = this.transform.position + currentPosition;
         instantiatedDashEffect.transform.parent = this.transform;
-    }
+    }*/
 
     bool IsMoving()
     {
