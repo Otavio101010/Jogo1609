@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -9,6 +8,8 @@ public class Inimigo : MonoBehaviour
     public int maxHealth = 2;          // Vida do inimigo
     public float knockbackForce = 5f;  // Força do recuo ao levar dano
     [SerializeField] bool movingRight = true;   // Direção inicial do movimento
+
+    private int currentHealth;
     private bool vivo = true;
     private bool isKnockBacked = false;
 
@@ -23,24 +24,22 @@ public class Inimigo : MonoBehaviour
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
+
+        currentHealth = maxHealth;
     }
 
     void Update()
     {
-
         if (isKnockBacked || !vivo) return;
 
-        // Movimento básico para frente
         Move();
     }
 
     void Move()
     {
-        // Define a direção do movimento
         float direction = movingRight ? 1 : -1;
         rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
 
-        // Inverte a direção do sprite do personagem
         MirrorSprite(direction);
 
         anim.SetFloat("Velocidade", Mathf.Abs(rb.velocity.x));
@@ -48,29 +47,56 @@ public class Inimigo : MonoBehaviour
 
     private void MirrorSprite(float moveInput)
     {
-        if (moveInput < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else
-        {
-            spriteRenderer.flipX = false;
-        }
+        spriteRenderer.flipX = moveInput < 0;
     }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Inverte direção ao colidir com paredes ou obstáculos
+        if (!vivo) return;
+
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Inimigo"))
         {
             movingRight = !movingRight;
         }
         else if (collision.gameObject.CompareTag("Player"))
         {
-            SistemaDeVida sistemaDeVida = collision.gameObject.GetComponent<SistemaDeVida>();
-            sistemaDeVida.AplicarDano(10);
+            var playerHealth = collision.gameObject.GetComponent<SistemaDeVida>();
+            if (playerHealth != null)
+                playerHealth.AplicarDano(10);
         }
     }
 
+    // ================= Sistema de Vida =================
+    public void LevarDano(int dano)
+    {
+        if (!vivo) return;
+
+        currentHealth -= dano;
+
+        AnimacaoDeDano();
+        EfeitoDeRecuo();
+        EfeitoDePiscar();
+
+        if (currentHealth <= 0)
+            Morrer();
+    }
+
+    private void Morrer()
+    {
+        vivo = false;
+
+        rb.velocity = Vector2.zero;
+        rb.isKinematic = true;
+        col.enabled = false;
+
+        anim.SetBool("Vivo", vivo);
+
+        EfeitoDePiscar(); // efeito opcional ao morrer
+
+        Destroy(gameObject, 3f); // destrói o inimigo depois de 3 segundos
+    }
+
+    // ================= Efeitos =================
     public void EfeitoDeRecuo()
     {
         isKnockBacked = true;
@@ -78,7 +104,6 @@ public class Inimigo : MonoBehaviour
         float knockbackDirection = movingRight ? -1 : 1;
         Vector2 force = new(knockbackDirection * knockbackForce, 0);
 
-        // Zerar velocidade e Efeito de recuo
         rb.velocity = new Vector2(0, rb.velocity.y);
         rb.AddForce(force, ForceMode2D.Impulse);
 
@@ -87,7 +112,7 @@ public class Inimigo : MonoBehaviour
 
     IEnumerator ResetKnockback()
     {
-        yield return new WaitForSeconds(0.5f); // Aguarde por 0.5 segundos
+        yield return new WaitForSeconds(0.5f);
         isKnockBacked = false;
     }
 
@@ -120,18 +145,5 @@ public class Inimigo : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         anim.ResetTrigger("Machucado");
-    }
-
-    internal void AnimacaoDeMorte()
-    {
-        vivo = false;
-
-        rb.isKinematic = true;
-        col.enabled = false;
-
-        anim.SetBool("Vivo", vivo);
-        EfeitoDePiscar();
-
-        Destroy(gameObject, 3); //Configurar o tempo de destruição do objeto
     }
 }
