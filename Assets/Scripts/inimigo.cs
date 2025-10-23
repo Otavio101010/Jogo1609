@@ -4,17 +4,27 @@ using UnityEngine;
 public class Inimigo : MonoBehaviour
 {
     [Header("Configurações")]
-    public float moveSpeed = 2f;       // Velocidade de movimento
-    public int maxHealth = 2;          // Vida do inimigo
-    public float knockbackForce = 5f;  // Força do recuo ao levar dano
-    [SerializeField] bool movingRight = true;   // Direção inicial do movimento
+    public float moveSpeed = 2f;
+    public int maxHealth = 2;
+    public float knockbackForce = 5f;
+    public float attackDamage = 10f;
+    public float attackCooldown = 1f;
+
+    [Header("Detecção de ambiente")]
+    public Transform groundCheck;
+    public Transform wallCheck;
+    public float checkDistance = 0.1f;
+    public LayerMask groundLayer;
 
     private int currentHealth;
     private bool vivo = true;
     private bool isKnockBacked = false;
+    private bool movingRight = true;
+    private bool atacando = false;
+    private float lastAttackTime = 0f;
 
-    private Animator anim;
     private Rigidbody2D rb;
+    private Animator anim;
     private SpriteRenderer spriteRenderer;
     private Collider2D col;
 
@@ -30,40 +40,58 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
-        if (isKnockBacked || !vivo) return;
+        if (!vivo || isKnockBacked || atacando) return;
 
         Move();
+        CheckEnvironment();
     }
 
+    // ================= Movimento =================
     void Move()
     {
         float direction = movingRight ? 1 : -1;
         rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
 
-        MirrorSprite(direction);
-
+        spriteRenderer.flipX = direction < 0;
         anim.SetFloat("Velocidade", Mathf.Abs(rb.velocity.x));
     }
 
-    private void MirrorSprite(float moveInput)
+    void CheckEnvironment()
     {
-        spriteRenderer.flipX = moveInput < 0;
+        // Checa chão à frente
+        RaycastHit2D groundHit = Physics2D.Raycast(groundCheck.position, Vector2.down, checkDistance, groundLayer);
+        // Checa parede à frente
+        RaycastHit2D wallHit = Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, checkDistance, groundLayer);
+
+        if (!groundHit.collider || wallHit.collider)
+        {
+            movingRight = !movingRight;
+        }
     }
 
+    // ================= Ataque =================
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (!vivo) return;
 
-        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Inimigo"))
-        {
-            movingRight = !movingRight;
-        }
-        else if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && Time.time - lastAttackTime > attackCooldown)
         {
             var playerHealth = collision.gameObject.GetComponent<SistemaDeVida>();
             if (playerHealth != null)
-                playerHealth.AplicarDano(10);
+            {
+                playerHealth.AplicarDano(attackDamage);
+                anim.SetTrigger("Atacar");
+                lastAttackTime = Time.time;
+                StartCoroutine(AttackCooldown());
+            }
         }
+    }
+
+    IEnumerator AttackCooldown()
+    {
+        atacando = true;
+        yield return new WaitForSeconds(attackCooldown);
+        atacando = false;
     }
 
     // ================= Sistema de Vida =================
@@ -72,7 +100,6 @@ public class Inimigo : MonoBehaviour
         if (!vivo) return;
 
         currentHealth -= dano;
-
         AnimacaoDeDano();
         EfeitoDeRecuo();
         EfeitoDePiscar();
@@ -84,7 +111,6 @@ public class Inimigo : MonoBehaviour
     private void Morrer()
     {
         vivo = false;
-
         rb.velocity = Vector2.zero;
         rb.isKinematic = true;
         col.enabled = false;
@@ -92,8 +118,7 @@ public class Inimigo : MonoBehaviour
         anim.SetBool("Vivo", vivo);
 
         EfeitoDePiscar(); // efeito opcional ao morrer
-
-        Destroy(gameObject, 3f); // destrói o inimigo depois de 3 segundos
+        Destroy(gameObject, 3f);
     }
 
     // ================= Efeitos =================
