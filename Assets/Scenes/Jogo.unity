@@ -274,6 +274,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56321078}
   m_CullTransparentMesh: 1
+--- !u!1 &69328505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 69328506}
+  m_Layer: 0
+  m_Name: Patrulha Direita
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &69328506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69328505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 104.76172, y: 17.388647, z: -0.01617669}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &88604253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,7 +1096,7 @@ MonoBehaviour:
   barraDeVida: {fileID: 0}
   vidaMaxima: 100
   vidaAtual: 0
---- !u!114 &297666294
+--- !u!114 &297666298
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1077,6 +1108,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbe6824deb099284385e09f1528ca6e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 2
+  maxHealth: 2
+  knockbackForce: 5
+  attackDamage: 10
+  attackCooldown: 1
+  pontoDaEsquerda: {fileID: 745769733}
+  pontoDaDireita: {fileID: 69328506}
+  patrolSpeed: 2
 --- !u!1001 &323641174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1582,7 +1621,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.384279
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1606,8 +1645,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.2500005, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.25, y: 0, z: -10}
+  m_LocalScale: {x: -0.0011557313, y: -0.0011557313, z: -0.0011557313}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2270,6 +2309,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737978189}
   m_CullTransparentMesh: 1
+--- !u!1 &745769732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 745769733}
+  m_Layer: 0
+  m_Name: Patrulha Esquerda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &745769733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745769732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 96.01172, y: 17.138647, z: -0.01617669}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &747092535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2966,7 +3036,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 4253f19d42fef2946ae08455f9628eb9, type: 2}
     - target: {fileID: 3626916397498700004, guid: 272b52dda2010654083f10a8827bfa9e, type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 272b52dda2010654083f10a8827bfa9e, type: 3}
       propertyPath: m_Sprite
@@ -3006,7 +3076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 272b52dda2010654083f10a8827bfa9e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 102.38
+      value: 97.63
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 272b52dda2010654083f10a8827bfa9e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10267,6 +10337,18 @@ PrefabInstance:
     - target: {fileID: 2697140985634774564, guid: 2b04eda636ca8fa46911579208c864ab, type: 3}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2697140985634774564, guid: 2b04eda636ca8fa46911579208c864ab, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.10299
+      objectReference: {fileID: 0}
+    - target: {fileID: 2697140985634774564, guid: 2b04eda636ca8fa46911579208c864ab, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0707
+      objectReference: {fileID: 0}
+    - target: {fileID: 2697140985634774564, guid: 2b04eda636ca8fa46911579208c864ab, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0707
       objectReference: {fileID: 0}
     - target: {fileID: 2697140985634774564, guid: 2b04eda636ca8fa46911579208c864ab, type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,11 +10,10 @@ public class Inimigo : MonoBehaviour
     public float attackDamage = 10f;
     public float attackCooldown = 1f;
 
-    [Header("Detecção de ambiente")]
-    public Transform groundCheck;
-    public Transform wallCheck;
-    public float checkDistance = 0.1f;
-    public LayerMask groundLayer;
+    [Header("Patrulha")]
+    public Transform pontoDaEsquerda;
+    public Transform pontoDaDireita;
+    public float patrolSpeed = 2f;
 
     private int currentHealth;
     private bool vivo = true;
@@ -43,30 +42,29 @@ public class Inimigo : MonoBehaviour
         if (!vivo || isKnockBacked || atacando) return;
 
         Move();
-        CheckEnvironment();
     }
 
     // ================= Movimento =================
     void Move()
     {
-        float direction = movingRight ? 1 : -1;
-        rb.velocity = new Vector2(direction * moveSpeed, rb.velocity.y);
-
-        spriteRenderer.flipX = direction < 0;
-        anim.SetFloat("Velocidade", Mathf.Abs(rb.velocity.x));
-    }
-
-    void CheckEnvironment()
-    {
-        // Checa chão à frente
-        RaycastHit2D groundHit = Physics2D.Raycast(groundCheck.position, Vector2.down, checkDistance, groundLayer);
-        // Checa parede à frente
-        RaycastHit2D wallHit = Physics2D.Raycast(wallCheck.position, movingRight ? Vector2.right : Vector2.left, checkDistance, groundLayer);
-
-        if (!groundHit.collider || wallHit.collider)
+        // Movimento entre dois pontos
+        if (movingRight)
         {
-            movingRight = !movingRight;
+            rb.velocity = new Vector2(patrolSpeed, rb.velocity.y);
+
+            if (Vector2.Distance(transform.position, pontoDaDireita.position) < 1f)
+                movingRight = false;
         }
+        else
+        {
+            rb.velocity = new Vector2(-patrolSpeed, rb.velocity.y);
+
+            if (Vector2.Distance(transform.position, pontoDaEsquerda.position) < 1f)
+                movingRight = true;
+        }
+
+        spriteRenderer.flipX = !movingRight;
+        anim.SetFloat("Velocidade", Mathf.Abs(rb.velocity.x));
     }
 
     // ================= Ataque =================
