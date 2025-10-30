@@ -52,15 +52,20 @@ public class Inimigo : MonoBehaviour
         {
             rb.velocity = new Vector2(patrolSpeed, rb.velocity.y);
 
-            if (Vector2.Distance(transform.position, pontoDaDireita.position) < 1f)
+            if (Vector2.Distance(transform.position, pontoDaDireita.position) < 2f)
+            {
                 movingRight = false;
+            }
+                
         }
         else
         {
             rb.velocity = new Vector2(-patrolSpeed, rb.velocity.y);
 
-            if (Vector2.Distance(transform.position, pontoDaEsquerda.position) < 1f)
+            if (Vector2.Distance(transform.position, pontoDaEsquerda.position) < 2f)
+            {
                 movingRight = true;
+            }
         }
 
         spriteRenderer.flipX = !movingRight;

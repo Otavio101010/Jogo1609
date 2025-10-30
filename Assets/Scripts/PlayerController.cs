@@ -142,7 +142,6 @@ public class PlayerController : MonoBehaviour
         {
             if (jumpBufferCounter > 0 && coyoteTimeCounter > 0)
             {
-                Debug.Log("Chamou o Pulo");
                 rb.velocity = new Vector3(rb.velocity.x, jumpForce);
                 AudioManager.Instance.Play("Pulo");
             }
@@ -331,7 +330,8 @@ public class PlayerController : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("No céu tem pão?");
+        Debug.Log("Morreu");
+        anim.SetTrigger("Morrer");
     }
 
     public void MoveToCheckPoint(Transform checkPointPosition)

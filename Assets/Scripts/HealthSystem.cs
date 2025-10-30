@@ -29,5 +29,4 @@ public class HealthSystem : MonoBehaviour
             currentHealth = maxHealth;
             
     }
-
 }
