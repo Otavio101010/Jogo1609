@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -330,9 +331,10 @@ public class PlayerController : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Morreu");
         anim.SetTrigger("Morrer");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    
 
     public void MoveToCheckPoint(Transform checkPointPosition)
     {
